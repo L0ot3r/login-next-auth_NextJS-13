@@ -25,22 +25,22 @@ export default function LoginModal() {
 					<LoginBtn
 						title='Google'
 						action={() => signIn('google')}
-						style='bg-red-400 hover:bg-red-500 text-white font-semibold'
+						style='bg-red-500 hover:bg-red-400 text-white font-semibold'
 					/>
 					<LoginBtn
 						title='Github'
 						action={() => signIn('github')}
-						style='bg-gray-600 hover:bg-slate-700 text-white font-semibold'
+						style='bg-slate-800 hover:bg-slate-700 text-white font-semibold'
 					/>
 					<LoginBtn
 						title='Facebook'
 						action={() => signIn('facebook')}
-						style='bg-blue-600 hover:bg-blue-800 text-white font-semibold'
+						style='bg-blue-800 hover:bg-blue-700 text-white font-semibold'
 					/>
 					<LoginBtn
 						title='Discord'
 						action={() => signIn('discord')}
-						style='bg-blue-600 hover:bg-blue-800 text-white font-semibold'
+						style='bg-purple-800 hover:bg-purple-700 text-white font-semibold'
 					/>
 					<LoginBtn
 						title='Email'
